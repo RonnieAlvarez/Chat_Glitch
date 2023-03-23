@@ -1,0 +1,27 @@
+<div>
+  <div class="chat-container container">
+    <div class="chat-header">
+      <h2>My Chat</h2> <span class="bg-dark rounded px-2 " id="ename"></span>
+    </div>
+  <br> 
+
+  <div class="chat-input-container">
+    <input type="text" placeholder="Escribe un mensaje..." id="message" />
+    <button id="submit" type="button" class="btn btn-primary ">Enviar</button>
+  </div>
+  <br>
+
+
+<div class="chat-window">
+  <div class="message-bubble">
+    <div class="message-sender">
+      <p id="ename"></p>
+    </div>
+    <p id="messages"></p>
+  </div>
+</div>
+</div>
+
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="/socket.io/socket.io.js"></script>
+<script src="/js/socket.js"></script>
